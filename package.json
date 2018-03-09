@@ -1,0 +1,33 @@
+{
+  "name": "further-down",
+  "version": "1.0.0",
+  "description": "A very limited markdown parser (testing local npm module usage)",
+  "main": "dist.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chubishere/further-down.git"
+  },
+  "author": "clarence@dubishere.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chubishere/further-down/issues"
+  },
+  "homepage": "https://github.com/chubishere/further-down#readme",
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "typescript": "^2.7.2"
+  },
+  "jest": {
+    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/.*\\.spec\\.(ts|tsx|js)$"
+  }
+}
