@@ -1,6 +1,6 @@
 {
   "name": "further-down",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very limited markdown parser (testing local npm module usage)",
   "main": "dist/index.js",
   "scripts": {

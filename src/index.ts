@@ -1,5 +1,5 @@
 /**
- * Transfrom [text](url) to <a href="url">text</a>
+ * Transform [text](url) to <a href="url">text</a>
  * 
  * @param {string} markdown 
  */

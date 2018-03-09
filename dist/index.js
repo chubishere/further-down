@@ -10,7 +10,7 @@
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     /**
-     * Transfrom [text](url) to <a href="url">text</a>
+     * Transform [text](url) to <a href="url">text</a>
      *
      * @param {string} markdown
      */
