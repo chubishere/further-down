@@ -2,7 +2,7 @@
   "name": "further-down",
   "version": "1.0.0",
   "description": "A very limited markdown parser (testing local npm module usage)",
-  "main": "dist.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",
