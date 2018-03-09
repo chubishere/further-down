@@ -9,10 +9,13 @@
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
+    /**
+     * Transfrom [text](url) to <a href="url">text</a>
+     *
+     * @param {string} markdown
+     */
     var link = function (markdown) {
-        var sqBrackets = '\[[^[]]\]';
-        var parenthesis = '\([^()]\)';
-        return markdown.replace(new RegExp(sqBrackets + parenthesis), 'link');
+        return markdown.replace(/\[([^[\\]*?)]\((.*?)\)/g, '<a href="$2">$1</a>');
     };
     exports.parse = link;
 });
